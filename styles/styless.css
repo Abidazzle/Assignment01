@@ -221,3 +221,7 @@ main section {
     padding: 10px;
     justify-content: space-between;
 }
+.contact{
+    text-decoration: none;
+    color: white;
+}
