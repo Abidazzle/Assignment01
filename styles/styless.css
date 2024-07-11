@@ -33,6 +33,7 @@ header{
     padding: 16px 14px;
     font-size: 20px;
     font-weight: 600;
+    height: fit-content;
     
 }
 .descrip{
@@ -80,8 +81,6 @@ header{
     padding: 80px 97px;
 }
   
-}
-
 main section {
     display: flex;
     flex-direction: column;
@@ -90,19 +89,31 @@ main section {
 }
 .Details{
     display: flex;
+    background-color: white;
+    border: solid 0px ;
+    border-radius: 10px;
     flex-direction: row;
     justify-content: space-between;
     padding: 80px 97px;
+    margin: 32px 60px 40px;
 }
 main section {
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: rgb(239, 242, 243);
     margin: 74px 152px 90px 148px;
+    background-size: contain;
 }
 .Align{
 
     align-items: right;
     text-align: center;
+}
+
+.margin{
+    margin-top: 120px;
+}
+.perfection{
+    margin: 15px;
 }
 .Hero{
     display: flex;
@@ -110,6 +121,50 @@ main section {
     justify-content: center;
     align-items: center;
 }
+/* Cards */
+.Cards{
+    margin: 151px 150x 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+}
 .HTML{
+    border-radius: 15px;
+    padding: 15px;
     background-color:rgba(255, 76, 30, 0.05) ;
+    background-size: contain;
+    margin: 15px;
+}
+.CSS{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(0, 76, 232, 0.05);
+    margin: 15px;
+    background-size: contain;
+}
+.JavaScript{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(255, 223, 0, 0.05);
+    margin: 15px;
+    background-size: contain;
+}
+/* cards2 */
+.React{
+    display: flex;
+    flex-direction:row;
+
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+.nodeJS{
+    display: flex;
+    flex-direction:row;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
 }
