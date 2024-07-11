@@ -122,6 +122,9 @@ main section {
     align-items: center;
 }
 /* Cards */
+.cards2{
+    margin-top: 30px;
+}
 .Cards{
     margin: 151px 150x 111px;
     display: flex;
@@ -167,4 +170,23 @@ main section {
     border-radius: 10px;
     padding: 15px;
     margin: 15px;
+}
+.MongoDB{
+    display: flex;
+    flex-direction:row;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+.Ending{
+    margin: 30px;
+    border: solid 0px;
+    border-radius: 20px;
+    background-image: url('../assets/handshake.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    justify-content: center;
 }
