@@ -13,13 +13,28 @@ header{
 
 
 }
-.HeroSec{
-    font-size: 20px;
-    font-weight: bold;
-}
-/* nav styles */
 
 /* Styles shared */
+.borders{
+    margin: 20px;
+}
+.btn-prime{
+    background-color: rgba(13, 19, 33, 1);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.btn2{
+    border: solid 1px;
+    color:rgba(13, 19, 33, 1);
+    padding: 16px 14px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
 .descrip{
     font-weight: normal;
     font-size: 16px;
@@ -33,6 +48,8 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 131px 0px 74px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* banners */
@@ -51,7 +68,48 @@ header{
     align-items: center;
 }
 
-/* images */
-.pic{
-    width;
+.Description{
+    font-weight: 800;
+}
+
+.Why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 97px;
+}
+  
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 97px;
+}
+main section {
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 74px 152px 90px 148px;
+}
+.Align{
+
+    align-items: right;
+    text-align: center;
+}
+.Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HTML{
+    background-color:rgba(255, 76, 30, 0.05) ;
 }
