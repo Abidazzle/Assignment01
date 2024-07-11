@@ -1,8 +1,57 @@
+.font-class {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
 header{
     background-image: url('../assets/Hero-bg.png');
-    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
 }
 .HeroSec{
     font-size: 20px;
     font-weight: bold;
+}
+/* nav styles */
+
+/* Styles shared */
+.descrip{
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HeroSec{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 131px 0px 74px;
+}
+
+/* banners */
+.banner-content{
+    font-size:28px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* images */
+.pic{
+    width;
 }
