@@ -34,7 +34,31 @@ header{
     font-size: 20px;
     font-weight: 600;
     height: fit-content;
-    
+}
+.submit{
+    border: solid 1px;
+    border-radius: 10px;
+    color:rgba(13, 19, 33, 1);
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.place{
+    border: solid 1px;
+    border-radius: 10px;
+    color:rgba(13, 19, 33, 1);
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+    margin-left: 460px;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .descrip{
     font-weight: normal;
@@ -113,7 +137,7 @@ main section {
     margin-top: 120px;
 }
 .perfection{
-    margin: 15px;
+    margin: 12px;
 }
 .Hero{
     display: flex;
@@ -180,13 +204,20 @@ main section {
     margin: 15px;
 }
 .Ending{
+    background-image: url('../assets/handshake.jpg');
+    background-size: ;
+    background-repeat: no-repeat;
     margin: 30px;
     border: solid 0px;
     border-radius: 20px;
-    background-image: url('../assets/handshake.jpg');
-    background-size: auto;
-    background-repeat: no-repeat;
     color: white;
     padding: 20px;
     justify-content: center;
+}
+.foot{
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
 }
