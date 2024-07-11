@@ -1,0 +1,8 @@
+header{
+    background-image: url('../assets/Hero-bg.png');
+    display: flex;
+}
+.HeroSec{
+    font-size: 20px;
+    font-weight: bold;
+}
